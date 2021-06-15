@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      * {
+  list-style: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+}
+
+.intro_bg {
+  background: url('image/coffee-cup-receipt-counter-latte-bell-303-pxhere.com\ \(3\).jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 718px;
+}
+
+.header {
+  display: flex;
+  width: 1280px;
+  margin: auto;
+  height: 86px;
+}
+
+/* 버튼 */
+button {
+  width: 120px;
+  height: 40px;
+  background-color: rgb(200, 144, 70);
+  color: white;
+  margin-top: 25px;
+  border-radius: 20px;
+}
+button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+/* 메뉴 우측 상단 */
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  line-height: 86px;
+  width: 1280px;
+}
+.nav > li {
+  margin-left: 84px;
+}
+.nav > li > a {
+  color: white;
+}
+
+/* 네비 */
+.leftnav {
+  width: 200px;
+  height: 100%;
+  background-color: sandybrown;
+  border-radius: 15px;
+}
+.leftnav > ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.leftnav > ul > li {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+  border-bottom: 1px solid whitesmoke;
+}
+.leftnav ul > li > a {
+  color: white;
+}
+.leftnav ul > li > a:hover {
+  color: chocolate;
+}
+.intro_text {
+  width: 100%;
+  margin: 231px auto 231px auto;
+  text-align: center;
+}
+.intro_text > h1,
+.intro_text > h4 {
+  color: white;
+}
+.main_text1 {
+  margin-top: -50px;
+  width: 100%;
+  height: 659px;
+  margin-bottom: auto;
+}
+.main_text1 > .service {
+  margin-top: 20px;
+}
+.main_text1 > h1 {
+  padding-top: 50px;
+  text-align: center;
+}
+.main_text1 > .contents1 {
+  text-align: center;
+  font-size: 18px;
+}
+.main_text1 {
+  margin-top: -50px;
+  width: 100%;
+  height: 659px;
+  margin-bottom: auto;
+}
+.main_textmenu > .service {
+  margin-top: 20px;
+}
+.main_textmenu > h1 {
+  padding-top: 50px;
+  text-align: center;
+}
+.main_textmenu > .contents1 {
+  text-align: center;
+  font-size: 18px;
+}
+.main_textmenu {
+  margin-top: -350px;
+  width: 100%;
+  height: 659px;
+  margin-bottom: auto;
+}
+.main_text3 > .service {
+  margin-top: 20px;
+}
+.main_text3 > h1 {
+  padding-top: 50px;
+  text-align: center;
+}
+.main_text3 > .contents1 {
+  text-align: center;
+  font-size: 18px;
+}
+.main_textintro {
+  margin-top: -100px;
+  width: 100%;
+  height: 659px;
+  margin-bottom: auto;
+}
+.service {
+  width: 1280px;
+  display: flex;
+  margin: auto;
+  height: 427px;
+  background-color: wheat;
+}
+.service > .contents3 {
+  padding: 20px;
+}
+.service > .contents3 > h2 {
+  margin-bottom: 20px;
+}
+.main_text1 > .service > .food_photo > img {
+  width: 600px;
+  height: 427px;
+}
+.main_textmenu > .service > .food_photo > img {
+  width: 600px;
+  height: 427px;
+}
+.main_textintro > .service > .food_photo > img {
+  width: 600px;
+  height: 427px;
+}
+.icons {
+  display: flex;
+  width: 1280px;
+  height: 302px;
+  margin: auto;
+}
+.icons > li {
+  flex: 1;
+  background: whitesmoke;
+  margin-top: 49px;
+  height: 302px;
+  text-align: center;
+}
+.icons > li > .icon_img {
+  margin-top: 36px;
+}
+.icons > li:not(:last-child) {
+  margin-right: 20px;
+}
+.icons .contents1 {
+  width: 190px;
+  margin: auto;
+}
+.icons .contents2 {
+  width: 300px;
+  margin: auto;
+}
+.icon_img > img {
+  border-radius: 20px;
+}
+.serviceinform {
+  width: 1280px;
+  display: flex;
+  margin: auto;
+  height: 650px;
+  background-color: wheat;
+  margin-bottom: 20px;
+}
+.serviceinform > .contents3 {
+  padding: 20px;
+}
+.serviceinform > .contents3 > h2 {
+  margin-bottom: 20px;
+}
+.main_text1 > .serviceinform > .food_photo > img {
+  width: 600px;
+  height: 650px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="intro_bg">
+          <div class="header">         
+           <button>
+               <a href="coffee.html"><h3>HOME</h3></a>
+           </button>
+       
+
+            <ul class="nav">
+              <li><a href="introduce1.html">INTRODUCE</a></li>
+              <li><a href="menu1.html">MENU</a></li>
+              <li><a href="information.html">INFORMATION</a></li>
+            </ul>
+          </div>
+          <div class="intro_text">
+            <h1>Coffee Imformation</h1>
+            <h4 class="contents1">커피에 대한 정보를 제공합니다</h4>
+          </div>
+        </div>
+        </div>
+          <div class="main_text1">
+            <div class="serviceinform">
+                <div class="food_photo">
+                  <img src="image/원두 이미지.jpg">
+                </div>
+                <div class="contents3">
+                  <h2>커피원두의 이름이 어떻게 지어지는걸까?</h2>
+                싱글vs블렌딩<br>
+                특정한 나라에서 특장한 농장에서 생산된 원두는 싱글 오리진<br>
+                이나라, 저나라 섞이면서 생산된 원두는 블렌딩 원두입니다<br>
+                <br>
+                원두의 이름은<br>
+                 일반적으로 아래 6개의 정보사용됩니다. <br>
+                나라이름,지역이름,농장이름, <br>
+                원두등급,원두품종,가공방식 <br>
+                  <br>
+                원두가공법은 <br>
+                
+                1.워시드(습식가공) <br>
+                커피열매를 기계로 물로씻어내 과육 벗겨내 씨앗을 취하는방식 <br>
+                <br>
+                2. 내추럴(건식가공) <br>
+                커피를 밖에 말려놓음 잘마르면 직접 과육을 벗겨냄 <br>
+                <br>
+                3.허니 프로세싱<br>
+                워시드와 내추럴을 섞은것<br>
+                  <br>
+                원두의등급은 <br>
+                나라별로 등급을 부여하는 기준이 다르며 일반적으로 3가지중에서 <br>
+                 한두가지를 기준으로 사용함 <br>
+                원두크기, 밀도, 결점두
+              </div>
+            </div>
+            
+          </div>
+   </body>
+  </html>
+    
+</body>
+</html>

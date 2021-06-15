@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      * {
+  list-style: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+}
+
+.intro_bg {
+  background: url('image/coffee-cup-receipt-counter-latte-bell-303-pxhere.com\ \(3\).jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 718px;
+}
+
+.header {
+  display: flex;
+  width: 1280px;
+  margin: auto;
+  height: 86px;
+}
+
+/* 버튼 */
+button {
+  width: 120px;
+  height: 40px;
+  background-color: rgb(200, 144, 70);
+  color: white;
+  margin-top: 25px;
+  border-radius: 20px;
+}
+button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+/* 메뉴 우측 상단 */
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  line-height: 86px;
+  width: 1280px;
+}
+.nav > li {
+  margin-left: 84px;
+}
+.nav > li > a {
+  color: white;
+}
+
+/* 네비 */
+.leftnav {
+  width: 200px;
+  height: 100%;
+  background-color: sandybrown;
+  border-radius: 15px;
+}
+.leftnav > ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.leftnav > ul > li {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+  border-bottom: 1px solid whitesmoke;
+}
+.leftnav ul > li > a {
+  color: white;
+}
+.leftnav ul > li > a:hover {
+  color: chocolate;
+}
+.intro_text {
+  width: 100%;
+  margin: 231px auto 231px auto;
+  text-align: center;
+}
+.intro_text > h1,
+.intro_text > h4 {
+  color: white;
+}
+.main_text1 {
+  margin-top: -50px;
+  width: 100%;
+  height: 659px;
+  margin-bottom: auto;
+}
+.main_text1 > .service {
+  margin-top: 20px;
+}
+.main_text1 > h1 {
+  padding-top: 50px;
+  text-align: center;
+}
+.main_text1 > .contents1 {
+  text-align: center;
+  font-size: 18px;
+}
+.main_text1 {
+  margin-top: -50px;
+  width: 100%;
+  height: 659px;
+  margin-bottom: auto;
+}
+.main_textmenu > .service {
+  margin-top: 20px;
+}
+.main_textmenu > h1 {
+  padding-top: 50px;
+  text-align: center;
+}
+.main_textmenu > .contents1 {
+  text-align: center;
+  font-size: 18px;
+}
+.main_textmenu {
+  margin-top: -350px;
+  width: 100%;
+  height: 659px;
+  margin-bottom: auto;
+}
+.main_text3 > .service {
+  margin-top: 20px;
+}
+.main_text3 > h1 {
+  padding-top: 50px;
+  text-align: center;
+}
+.main_text3 > .contents1 {
+  text-align: center;
+  font-size: 18px;
+}
+.main_textintro {
+  margin-top: -100px;
+  width: 100%;
+  height: 659px;
+  margin-bottom: auto;
+}
+.service {
+  width: 1280px;
+  display: flex;
+  margin: auto;
+  height: 427px;
+  background-color: wheat;
+}
+.service > .contents3 {
+  padding: 20px;
+}
+.service > .contents3 > h2 {
+  margin-bottom: 20px;
+}
+.main_text1 > .service > .food_photo > img {
+  width: 600px;
+  height: 427px;
+}
+.main_textmenu > .service > .food_photo > img {
+  width: 600px;
+  height: 427px;
+}
+.main_textintro > .service > .food_photo > img {
+  width: 600px;
+  height: 427px;
+}
+.icons {
+  display: flex;
+  width: 1280px;
+  height: 302px;
+  margin: auto;
+}
+.icons > li {
+  flex: 1;
+  background: whitesmoke;
+  margin-top: 49px;
+  height: 302px;
+  text-align: center;
+}
+.icons > li > .icon_img {
+  margin-top: 36px;
+}
+.icons > li:not(:last-child) {
+  margin-right: 20px;
+}
+.icons .contents1 {
+  width: 190px;
+  margin: auto;
+}
+.icons .contents2 {
+  width: 300px;
+  margin: auto;
+}
+.icon_img > img {
+  border-radius: 20px;
+}
+.serviceinform {
+  width: 1280px;
+  display: flex;
+  margin: auto;
+  height: 650px;
+  background-color: wheat;
+  margin-bottom: 20px;
+}
+.serviceinform > .contents3 {
+  padding: 20px;
+}
+.serviceinform > .contents3 > h2 {
+  margin-bottom: 20px;
+}
+.main_text1 > .serviceinform > .food_photo > img {
+  width: 600px;
+  height: 650px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="whole">
+        <div class="intro_bg">
+          <div class="header">
+          
+          <button>
+            <a href="coffee.html"><h3>HOME</h3></a>
+          </button>
+            <ul class="nav">
+              <li><a href="introduce1.html">INTRODUCE</a></li>
+              <li><a href="menu1.html">MENU</a></li>
+              <li><a href="information.html">INFORMATION</a></li>
+            </ul>
+          </div>
+          <div class="intro_text">
+            <h1>Coffee Imformation</h1>
+            <h4 class="contents1">커피에 대한 정보를 제공합니다</h4>
+          </div>
+        </div>
+        </div>
+          <div class="main_text1">
+            <div class="service">
+                <div class="food_photo">
+                  <img src="image/coffee-1213249_640.jpg">
+                </div>
+                <div class="contents3">
+                  <h2>커피는 하루에 몇잔 마셔야 좋을까?</h2>
+                  카페인 섭취는 장단점이 있다. <br> 
+                  카페인은 자극 효과로 인해 주의력, 운동능력 향상, 신진대사 증가 등의 이점이 있다.<br>
+                  하지만 카페인을 단일 용량으로 500㎎을 초과해 섭취할 경우 우리 몸에는 다양한 증상이 나타난다.<br>
+                  불안 장애, 수면 방해 등의 문제들이 있다. 따라서 적정량의 섭취를 하고있는지 확인이 필요하다. <br>
+                  <br>
+                  한국 식품의약품안전처에 따르면, 일일 최대 섭취 권고량 약 400mg(성인 남성 기준. 여성, 특히 임산부의 경우 300mg, 30kg 어린이는 75mg 이하)으로 이는 일반적인 성인이 섭취하였을 시에 부작용이 없을 것으로 예상되는 수치이다.
+                </div>
+            </div>
+    </body>
+  </html>
+</body>
+</html>
